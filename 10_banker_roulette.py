@@ -16,10 +16,11 @@ up_name = name.split(",")
 
 length = len(up_name)
 # random_number = random.randint(0,length)
-random_number = random.randint(0,length-1) # beacus it start with 0 so reduce 1 from total length .
+# beacus it start with 0 so reduce 1 from total length .
+random_number = random.randint(0, length-1)
 choice_name = up_name[random_number]
 print(f"{choice_name} have to pay todays bill !")
 
 # or using choice()
-choice_name2 = random.choice(up_name) 
+choice_name2 = random.choice(up_name)
 print(f"{choice_name2} have to pay todays bill !")

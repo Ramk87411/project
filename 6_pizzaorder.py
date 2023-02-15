@@ -14,7 +14,7 @@ extra_cheese = input("Do you want to add extra cheese? Y or N: ")
 bill = 0
 
 # if size == "S":
-#     bill += 15 
+#     bill += 15
 #     print(f" your Small pizza cost:{bill} ")
 #     if add_pepperoni == "Y":
 #         bill += 3
@@ -25,9 +25,9 @@ bill = 0
 #         if extra_cheese == "Y":
 #             bill += 1
 #             print(f"Your Small_pizza and chesse cost :{bill} ")
-            
 
-if size =="S":
+
+if size == "S":
     bill += 15
 elif size == "M":
     bill += 20
