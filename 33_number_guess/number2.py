@@ -27,7 +27,7 @@ def game():
     print("Welcome to guessing game !")
     print("I am thinking of anumber between i and 100.")
     answer =  random.randint(1,100)
-    # print(f"pssst, the correct answer is {answer}")
+    print(f"pssst, the correct answer is {answer}")
     turns = set_difficulty()
 
 
